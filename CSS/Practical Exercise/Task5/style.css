@@ -1,0 +1,42 @@
+.parent{
+    position: relative;
+    background-color: red;
+    width: 900px;
+    height: 500px;
+    margin: 10px;
+}
+.child3{
+    position: absolute;
+    background-color: blueviolet;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    top: 70px;
+    right: 15px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+
+}
+.child1{
+    position: static;
+    background-color:darkmagenta;
+    width: 200px;
+    height: 70px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+
+}
+
+.child2{
+    position: fixed;
+    background-color: coral;
+    width: 200px;
+    height: 90px;
+    margin: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    margin-top: 100px;
+}
